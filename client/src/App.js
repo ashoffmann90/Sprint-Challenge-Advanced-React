@@ -2,6 +2,7 @@ import React from 'react';
 import axios from 'axios'
 import PlayerCards from './components/PlayerCards'
 import './App.css';
+import DarkModeButton from './components/DarkModeButton';
 
 class App extends React.Component {
   constructor(){
@@ -27,6 +28,7 @@ class App extends React.Component {
   render(){
       return (
     <div className="App">
+      <DarkModeButton />
       <PlayerCards players={this.state.players}/>
     </div>
   );

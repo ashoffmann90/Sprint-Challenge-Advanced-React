@@ -6,7 +6,7 @@ function PlayerCards(props) {
         <>
             {props.players.map(player => (
                 <div key={player.id}>
-                    <p>Name:</p>
+                    <p>Name:{player.name}</p>
                     <p>Country:{player.country}</p>
                     <p>Searches:{player.searches}</p>
                 </div>    
