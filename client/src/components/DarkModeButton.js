@@ -11,7 +11,7 @@ function DarkModeButton() {
     }
 
     return(
-        <button onClick={toggleMode}>DarkMode</button>
+        <button data-testid='button' onClick={toggleMode}>DarkMode</button>
     )
 }
 

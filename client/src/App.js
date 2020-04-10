@@ -29,6 +29,7 @@ class App extends React.Component {
       return (
     <div className="App">
       <DarkModeButton />
+      <h1 data-testid='header'>Women's Soccer Players</h1>
       <PlayerCards players={this.state.players}/>
     </div>
   );
